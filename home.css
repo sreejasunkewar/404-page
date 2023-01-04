@@ -1,0 +1,41 @@
+.crowimg{
+    width:500px
+}
+.imgsec{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+}
+button{
+    background-color: black;
+    border:1px solid white;
+    box-shadow: 1ch;
+    color:white;
+    padding:10px;
+    
+}
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+@media (max-width:700px){
+    .container{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        
+    }
+}
